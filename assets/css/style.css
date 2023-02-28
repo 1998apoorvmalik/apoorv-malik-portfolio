@@ -1,10 +1,3 @@
-/**
-* Template Name: MyResume - v4.10.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -169,7 +162,7 @@ h6 {
   list-style: none;
 }
 
-.nav-menu>ul>li {
+.nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
 }
@@ -203,7 +196,6 @@ h6 {
 }
 
 @media (min-width: 992px) {
-
   .nav-menu a,
   .nav-menu a:focus {
     width: 56px;
@@ -219,7 +211,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
-.nav-menu li:hover>a {
+.nav-menu li:hover > a {
   color: #fff;
   background: #0563bb;
 }
@@ -227,18 +219,18 @@ h6 {
 .nav-menu a:hover span,
 .nav-menu .active span,
 .nav-menu .active:focus span,
-.nav-menu li:hover>a span {
+.nav-menu li:hover > a span {
   color: #fff;
 }
 
 .nav-menu a:hover,
-.nav-menu li:hover>a {
+.nav-menu li:hover > a {
   width: 100%;
   color: #fff;
 }
 
 .nav-menu a:hover span,
-.nav-menu li:hover>a span {
+.nav-menu li:hover > a span {
   display: block;
 }
 
@@ -786,7 +778,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1087,7 +1079,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1135,7 +1127,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #0563bb;
   border: 0;
   padding: 10px 35px;
@@ -1144,7 +1136,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #0678e3;
 }
 
