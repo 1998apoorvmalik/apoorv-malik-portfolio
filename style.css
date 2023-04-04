@@ -1,0 +1,61 @@
+/* -------------------------------- Bootstrap Overides -------------------------------- */
+.navbar {
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
+.active {
+  color: #0077b5 !important;
+}
+
+.btn-primary {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+.btn-primary:hover {
+  background-color: #0069a0;
+  border-color: #0069a0;
+}
+
+li h5 {
+  display: inline;
+}
+/* -------------------------------- End Bootstrap Overides -------------------------------- */
+
+/* -------------------------------- Custom CSS -------------------------------- */
+.fab {
+  color: #333;
+}
+.fab:hover {
+  color: #0077b5;
+}
+
+.text-link {
+  color: #0077b5 !important;
+}
+
+.social-links {
+  display: flex;
+  gap: 25px;
+  font-size: 1.8em;
+}
+
+/* Support two text in the same line with space between */
+.two-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* #343a40!important  */
