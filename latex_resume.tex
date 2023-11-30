@@ -1,0 +1,283 @@
+%-------------------------
+% Resume in Latex
+% Author : Apoorv Malik
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+% \usepackage{xcolor}
+\usepackage[usenames, dvipsnames]{xcolor}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue,
+    filecolor=RoyalBlue,      
+    urlcolor=RoyalBlue,
+    citecolor=RoyalBlue,
+}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+
+
+\begin{center}
+    \textbf{\Huge \scshape Apoorv Malik} \\ \vspace{5pt}
+    (541)-250-7410 $|$ \href{mailto:malikap@oregonstate.edu}{\underline{malikap@oregonstate.edu}}
+\end{center}
+
+\begin{center} 
+    \href{http://apoorvmalik.com}{\underline{apoorvmalik.com}} $|$
+    \href{https://linkedin.com/in/maliap}{\underline{linkedin.com/in/maliap}} $|$
+    \href{https://github.com/1998apoorvmalik}{\underline{github.com/1998apoorvmalik}} $|$
+    \href{https://leetcode.com/1998apoorvmalik}{\underline{leetcode.com/1998apoorvmalik}}
+\end{center}
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Tools}{: C, C++, C\#, Python, Dart, HTML, CSS, JS, EJS, TensorFlow \& Keras, Scikit-Learn, OpenCV, Flask, Numpy, Pandas, Node.js, Express, jQuery, Bootstrap, MongoDB, Docker, Flutter, Firebase, AWS, Unity, OpenGL, Figma, API Development, Git/GitHub, Linux/Bash } \\
+
+     \textbf{Research \& CS Interests}{: Computational Biology (RNA Structure Prediction), Software Development (Mobile, Desktop and Web), Machine Learning, Computer Vision, Algorithms \& Theory, Computer Graphics, UI/UX }
+    }}
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Oregon State University}{Corvallis, OR, USA}
+      {Master of Science (MS) in Computer Science (GPA = 3.8)}{Sept. 2022 – Present}
+    \resumeSubheading
+      {Maharshi Dayanand University}{Rohtak, HR, India}
+      {Bachelor of Technology (BTech) in Computer Science \& Engineering (CGPA = 9.2)}{Sept. 2016 – Sept. 2020}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Research Assistant (mentored by \href{https://web.engr.oregonstate.edu/~huanlian/}{\underline{Prof. Liang Huang}})}{December 2022 -- Present}
+      {Dept. of Computer Science at Oregon State University}{Corvallis, OR, USA}
+      \resumeItemListStart
+        \resumeItem{Developed a linear time algorithm for RNA alignments, supporting calculations for partition functions, base pairing probabilities, and structure predictions (MFE, MEA and Centroid).}
+         \resumeItem{Developing efficient algorithms related to RNA structure prediction, and refactoring existing codebases by adding new features to enhance performance and scalability.}
+        \resumeItem{Developed 6 web servers hosting various RNA algorithms, and optimized existing web applications' codebase leading to improved SEO, and a 500\% increase in traffic, thereby enhancing the accessibility of our scientific findings.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Teaching Assistant for CS 325 - Algorithms}{March 2023 -- Present}
+      {Dept. of Computer Science at Oregon State University}{Corvallis, OR, USA}
+      \resumeItemListStart
+        \resumeItem{Taught topics like Complexity Analysis, Divide \& Conquer, Greedy \& Graph Algorithms, Dynamic Programming, etc by conducting weekly help sessions, contributing to significant improvements in students’ understandings.}
+        \resumeItem{Graded assignments and exams, providing constructive feedback to over 100+ students and collaborated closely with the course professor/instructor to design and modify course materials and assignments.}
+        \resumeItem{Regularly held office hours to address individual student’s questions and maintained effective communication with students and staff, demonstrating excellent interpersonal skills.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Software Development and Machine Learning Engineer}{January 2020 - August 2022}
+      {Twyn (Previously Known as Marj Technologies)}{Noida, UP, India}
+      \resumeItemListStart
+        \resumeItem{Developed 3 IoT-based Industrial Automation and Quality Control applications for Non-Contact Dimensional \& Quality Inspection, OCR, Parameter-based PA check, Object Classification, and Bar \& QR code scanning.}
+        \resumeItem{Contributed to the startup’s seed funding of \$328K and helped achieve a valuation of \$3.7M by completing 4 projects for multiple clients of Marj (Ask Fras-le Friction, Minda Group, Samsung India, and JBM).}
+        \resumeItem{Interviewed 30+ job applicants for AI \& Software Development positions and further built \& managed the core team of 8 developers for product development. Implemented agile development methodologies, such as Scrum, to improve team efficiency.}
+        \resumeItem{Led cross-functional teams of developers to deliver software projects on-time and within budget, provided mentorship to 3 junior developers to improve their skills, and motivated team members to achieve common goals.}
+    \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+  \section{Publications}
+  \resumeSubHeadingListStart
+  \resumeItemListStart
+    \resumeItem{\textbf{Apoorv Malik*}, Liang Zhang*, Ning Dai, Sizhen Li, He Zhang, David Mathews, and Liang Huang (2023). \textcolor{RoyalBlue}{LinearAlifold: Linear-Time Consensus Structure Prediction for RNA Alignments}. In submission to Journal of Molecular Biology (JMB) Special Issue on Computation Resources for Molecular Biology.}
+    \resumeItem{Sizhen Li, Ning Dai, He Zhang, \textbf{Apoorv Malik}, David H. Mathews, and Liang Huang (2023). \textcolor{RoyalBlue}{LinearSankoff: Linear-time Simultaneous Folding and Alignment of RNA Homologs}. In submission to RECOMB 2024 (28th Annual International Conference on Research in Computational Molecular Biology).}
+\resumeItemListEnd
+  \resumeSubHeadingListEnd
+    
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{LinearAlifold} $|$ \href{https://linearfold.eecs.oregonstate.edu/linear-alifold}{\underline{Web Server Link}} $|$ \href{https://github.com/LinearFold/LinearAlifold}{\underline{GitHub Link}}}{November 2023}
+          \resumeItemListStart
+            \resumeItem{ Implemented and contributed to the development of a dynamic programming algorithm for RNA alignments' linear-time consensus structure prediction. It incorporates beam pruning (for enhanced computational efficiency), multiple energy parameters, and various computational modes.}
+            \resumeItem{Enabled the calculation of the partition function and base pairing probabilities, along with support for predicting both Maximum Expected Accuracy (MEA) and Minimum Free Energy (MFE) structures, enhancing the algorithm's utility and precision.}
+            \resumeItem{Developed a web server for providing users the ability to input their own sequences and perform various functions, thereby enhancing practical applications of the tool. }
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Google Explore ML DSC Facilitator} $|$ \href{https://drive.google.com/file/d/15abBtBUW1hRcmjXRya3rsrgSMyHbqR-4/view}{\underline{Certificate Link}}}{April 2020}
+          \resumeItemListStart
+            \resumeItem{Conducted five workshops on machine learning, introducing core concepts and practical applications.}
+            \resumeItem{Facilitated as part of the Google-sponsored Explore ML program, enhancing machine learning awareness among university students.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Computer Vision Project for Ask Fras-Le Friction Pvt. Ltd.}}{May 2022}
+          \resumeItemListStart
+            \resumeItem{Automated part of the quality control and inspection process by developing a vision-based application for dimensional analysis and classification of brake liners in an industrial setting.}
+            \resumeItem{Utilized multiple vision cameras for real-time measurement and quality assessment.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Machine Learning Engineer Capstone Project} $|$ \href{https://github.com/1998apoorvmalik/machine-learning-engineer-capstone}{\underline{GitHub Link}}}{July 2019}
+          \resumeItemListStart
+            \resumeItem{Developed a Deep Q-Learning (Reinforcement Learning) algorithm enabling an AI agent to master and significantly beat human players in the game of Atari Breakout.}
+            \resumeItem{The AI agent discovered innovative strategies for high scoring, demonstrating the effectiveness of the implemented learning techniques and algorithmic intelligence.}
+          \resumeItemListEnd
+
+       \resumeProjectHeading
+          {\textbf{Chess Game Development} $|$ \href{https://1998apoorvmalik.github.io/flutter-chess/}{\underline{Demo Link}} $|$ \href{https://github.com/1998apoorvmalik/flutter-chess}{\underline{GitHub Link}}}{March 2022}
+          \resumeItemListStart
+            \resumeItem{Programmed a chess game from scratch in Flutter \& C++, focusing on efficient move generation using bitboards.}
+            \resumeItem{Implemented advanced game features, including an AI opponent using the NegaMax algorithm and online multiplayer capabilities.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Teachable Image Classifier} $|$ \href{https://github.com/1998apoorvmalik/teachable-image-classifier}{\underline{GitHub Link}}}{January 2022}
+          \resumeItemListStart
+            \resumeItem{Created a app for non-experts to train deep learning models, enabling class creation and image sample addition.}
+            \resumeItem{Designed with adjustable training parameters, making deep learning accessible and customizable for various needs.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Vedic Life Foundation App Development}}{September 2021}
+          \resumeItemListStart
+            \resumeItem{Developed a comprehensive mobile application for meditation teaching, member enrollment, and session tracking, compatible with both iOS and Android platforms.}
+            \resumeItem{Included social media features for community engagement, allowing users to share thoughts, ask questions, and track meditation progress.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{2021 Flutter Development Bootcamp} $|$ \href{https://www.udemy.com/certificate/UC-5f383487-e6d6-4b9a-a33c-cd0f8b353f5f/}{\underline{Certificate Link}}}{January 2022}
+          \resumeItemListStart
+            \resumeItem{Achieved proficiency in the Flutter framework and Dart programming language, essential for developing high-quality, natively compiled applications for mobile, web, and desktop from a single codebase.}
+            \resumeItem{Developed skills in integrating APIs, cloud services like Firebase, and implementing efficient state management, along with mastering app deployment across multiple platforms.}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+          {\textbf{Udacity - Artificial Intelligence Nanodegree} $|$ \href{https://graduation.udacity.com/confirm/CTCD9YJQ}{\underline{Certificate Link}} $|$ \href{https://github.com/1998apoorvmalik/udacity-artificial-intelligence-nanodegree}{\underline{GitHub Link}}}{June 2020}
+          \resumeItemListStart
+            \resumeItem{Learnt core AI concepts through projects that combined symbolic logic and classical search for effective planning, and Constraint Satisfaction and Local Search Optimization techniques for complex problem-solving.}
+            \resumeItem{Acquired proficiency in strategic AI decision-making using algorithms like minimax and Monte Carlo tree search, and enhanced skills in machine learning, particularly in the application of Hidden Markov Models (HMM).}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+          {\textbf{Udacity - Machine Learning Engineer Nanodegree} $|$ \href{https://graduation.udacity.com/confirm/6S23AEJ5}{\underline{Certificate Link}} $|$ \href{https://github.com/1998apoorvmalik/udacity-machine-learning-engineer-nanodegree}{\underline{GitHub Link}}}{August 2019}
+          \resumeItemListStart
+            \resumeItem{Mastered supervised learning techniques, including linear regression, decision trees, and support vector machines, and gained proficiency in unsupervised learning with clustering algorithms.}
+            \resumeItem{Developed strong data processing skills, such as data cleaning, normalization, feature extraction, and utilized Principal Component Analysis (PCA) for effective dimensionality reduction.}
+            \resumeItem{ Developed expertise in deep learning, focusing on convolutional neural networks, and advanced skills in reinforcement learning, showcased in complex projects involving dog breed classification and autonomous quadcopter navigation.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+%-------------------------------------------
+\end{document}
