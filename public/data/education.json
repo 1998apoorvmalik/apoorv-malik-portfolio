@@ -1,0 +1,54 @@
+[
+  {
+    "heading": "Master of Science (MS) in Computer Science",
+    "subheading": "Oregon State University",
+    "description1": "September 2022 - March 2025",
+    "description2": "Corvallis, OR, USA",
+    "subtitle": "GPA: 3.88/4.0",
+    "content": [
+      "Studied a comprehensive range of topics in Computer Science, including Computational Biology, Algorithms, Software Engineering, Programming Languages, Database Management Systems, Parallel Programming, Computer Graphics, Artificial Intelligence, Machine Learning, and Natural Language Processing.",
+      "Under <a href=\"https://web.engr.oregonstate.edu/~huanlian/\" target=\"_blank\" rel=\"noopener noreferrer\">Prof. Liang Huang</a>, developed novel linear-time algorithms for RNA Structure Prediction, and refactored existing codebases by adding new features to enhance performance and scalability.",
+      "Developed a dynamic programming algorithm for RNA alignments, enhancing efficiency with beam pruning and supporting calculations for partition functions, base pairing probabilities, and structure predictions (MFE, MEA and Centroid).",
+      "Developed 6 <a href=\"https://linearfold.eecs.oregonstate.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">web servers</a> hosting various RNA algorithms, and optimized existing frontend & backend of the web applications leading to improved SEO, which contributed to a 500% increase in traffic, thereby enhancing the accessibility and utility of our scientific findings.",
+      "Conducted office hours for multiple Algorithm courses, helped with grading assignments and provided feedback to over 300 students, and assisted in course design."
+    ]
+  },
+  {
+    "heading": "Bachelor of Technology (B.Tech) in Computer Science",
+    "subheading": "Maharshi Dayanand University",
+    "description1": "September 2016 - September 2020",
+    "description2": "Rohtak, HR, India",
+    "subtitle": "GPA: 8.5/10.0",
+    "content": [
+        "Gained a solid foundation in key areas of computer science such as Discrete Mathematics, Data Structures, Algorithm, Theory of Computation, and Programming Languages.",
+        "Gained comprehensive knowledge in Operating Systems, Database Management Systems, Computer Networks, and Computer Graphics, integrating system-level understanding with practical applications.",
+        "Delved deeply into Artificial Intelligence, Machine Learning, and Neural Networks, developing a nuanced understanding of cutting-edge technologies and their practical implementations.",
+        "Conducted five workshops on machine learning, introducing core concepts and practical applications. Facilitated as part of the Google-sponsored Explore ML program, enhancing machine learning awareness among university students.",
+        "Developed strong analytical and problem-solving skills through hands-on projects and coursework.",
+        "Engaged in various extracurricular activities, including workshops and technical events, to enhance my understanding of emerging technologies and industry trends."
+    ]
+  },
+  {
+    "heading": "Artificial Intelligence Nanodegree",
+    "subheading": "Udacity Nanodegree",
+    "description1": "June 2020",
+    "description2": "",
+    "subtitle": "<a href=\"https://graduation.udacity.com/confirm/CTCD9YJQ\" target=\"_blank\" rel=\"noopener noreferrer\">Certificate Link</a> | <a href=\"https://github.com/1998apoorvmalik/udacity-artificial-intelligence-nanodegree\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub Link</a>",
+    "content": [
+      "Learned AI techniques including classical search, constraint satisfaction problems, and local search optimization.",
+      "Gained experience in adversarial search (Minimax, Monte Carlo Tree Search) and probabilistic reasoning with Hidden Markov Models."
+    ]
+  },
+  {
+    "heading": "Machine Learning Engineer Nanodegree",
+    "subheading": "Udacity Nanodegree",
+    "description1": "August 2019",
+    "description2": "",
+    "subtitle": "<a href=\"https://graduation.udacity.com/confirm/6S23AEJ5\" target=\"_blank\" rel=\"noopener noreferrer\">Certificate Link</a> | <a href=\"https://github.com/1998apoorvmalik/udacity-machine-learning-engineer-nanodegree\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub Link</a>",
+    "content": [
+      "Mastered supervised learning techniques (Regression, KNN, Random Forest, SVM) and unsupervised learning (Clustering, GMM).",
+      "Gained proficiency in data preprocessing, including data cleaning, normalization, feature engineering, and applied PCA for high-dimensional datasets.",
+      "Developed expertise in Deep Learning (CNNs) for image classification and Reinforcement Learning (Q-Learning, DQN, Actor-Critic, DDPG) for autonomous decision-making in complex environments."
+    ]
+  }
+]

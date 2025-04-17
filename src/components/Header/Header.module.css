@@ -1,0 +1,101 @@
+.header {
+  position: sticky;
+  background-color: rgba(var(--color-background-rgb), 1.0);
+  top: 0;
+  z-index: 1000;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3em;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2); /* optional for separation */
+}
+
+.button {
+  margin: 1em;
+  position: relative;
+  border: none;
+  background-color: inherit;
+  color: var(--color-primary);
+  opacity: 1;
+  font-size: large;
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  height: 2.5px;
+  width: 100%;
+  background-color: var(--color-secondary);
+  opacity: 0.9;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  opacity: 0.75;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.button.active {
+  color: var(--color-secondary);
+}
+
+.button.active::after {
+  transform: translateX(-50%) scaleX(0.9);
+}
+
+.socials {
+  display: flex;
+  gap: 1em;
+}
+
+.socials a {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.socials a:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+/* Optional: highlight active tab or icon with secondary color */
+.button:hover,
+.socials a:focus {
+  color: var(--color-secondary);
+  outline: none;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2em;
+    text-align: center;
+  }
+
+  .socials {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .button {
+    font-size: 1rem;
+    margin: 0.5em 0;
+  }
+
+  .header > div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+  }
+}
