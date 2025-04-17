@@ -1,0 +1,48 @@
+[
+  {
+    "heading": "LinearAlifold: Linear-Time Consensus Structure Prediction for RNA Alignments",
+    "subheading": "Journal of Molecular Biology (JMB), Special Issue on Computational Resources for Molecular Biology",
+    "description1": "2024",
+    "description2": "",
+    "subtitle": "Apoorv Malik, Liang Zhang, Ning Dai, Sizhen Li, He Zhang, David Mathews, Liang Huang",
+    "content": [
+      "Published in JMB 2024 Special Issue.",
+      "Developed linear-time algorithm for RNA consensus structure prediction in alignments.",
+      "<a href=\"https://www.sciencedirect.com/science/article/pii/S0022283624002961\" target=\"_blank\" rel=\"noopener noreferrer\">View publication</a>"
+    ]
+  },
+  {
+    "heading": "Scalable and Interpretable Identification of Minimal Undesignable RNA Structure Motifs with Rotational Invariance",
+    "subheading": "To appear in RECOMB 2025",
+    "description1": "2025",
+    "description2": "",
+    "subtitle": "Tianshuo Zhou, Apoorv Malik, Wei Yu Tang, Liang Huang",
+    "content": [
+      "Presented at RECOMB 2025 (upcoming).",
+      "Introduced interpretable RNA motif detection algorithm with rotational invariance.",
+      "<a href=\"https://arxiv.org/abs/2402.17206\" target=\"_blank\" rel=\"noopener noreferrer\">View preprint</a>"
+    ]
+  },
+  {
+    "heading": "LinearSankoff: Linear-time Simultaneous Folding and Alignment of RNA Homologs",
+    "subheading": "In submission to NAR Journal",
+    "description1": "2024",
+    "description2": "",
+    "subtitle": "Sizhen Li, Apoorv Malik, Ning Dai, He Zhang, David H. Mathews, Liang Huang",
+    "content": [
+      "Proposed linear-time version of Sankoff’s simultaneous folding and alignment.",
+      "<a href=\"https://arxiv.org/abs/2307.09580\" target=\"_blank\" rel=\"noopener noreferrer\">View preprint</a>"
+    ]
+  },
+  {
+    "heading": "Lazy Outside and Lazy Backward Algorithms",
+    "subheading": "ISMB 2024 (International Society for Computational Biology)",
+    "description1": "2024",
+    "description2": "",
+    "subtitle": "Liang Huang, Otso Barron, Apoorv Malik, Sizhen Li, David H. Mathews",
+    "content": [
+      "Novel lazy algorithms for outside and backward probability calculations.",
+      "Accepted to ISMB 2024."
+    ]
+  }
+]

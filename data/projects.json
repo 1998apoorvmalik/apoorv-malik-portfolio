@@ -1,0 +1,101 @@
+[
+  {
+    "heading": "Motifs: Full-stack Web App for Undesignable RNA Motifs",
+    "subheading": "Research Project",
+    "description1": "December 2024",
+    "description2": "",
+    "subtitle": "<a href=\"https://linearfold.eecs.oregonstate.edu/motifs\" target=\"_blank\" rel=\"noopener noreferrer\">Web Server Link</a> | <a href=\"https://arxiv.org/abs/2402.17206\" target=\"_blank\" rel=\"noopener noreferrer\">Publication Link</a>",
+    "tags": ["Web", "Full-stack", "React", "Flask", "Express", "MongoDB", "Research"],
+    "content": [
+      "Developed a full-stack web app to maintain a database of unique minimal undesignable RNA structures and motifs.",
+      "Users can explore, visualize, analyze, and identify undesignable motifs in existing and new RNA structures.",
+      "Frontend built with React, backend powered by Flask and Express, with MongoDB for data storage.",
+      "Deployed using Docker and Nginx for scalability and performance."
+    ]
+  },
+  {
+    "heading": "LinearAlifold: RNA Alignment and Folding",
+    "subheading": "Research Project",
+    "description1": "November 2023",
+    "description2": "",
+    "subtitle": "<a href=\"https://linearfold.eecs.oregonstate.edu/linear-alifold\" target=\"_blank\" rel=\"noopener noreferrer\">Web Server Link</a> | <a href=\"https://github.com/LinearFold/LinearAlifold\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub Link</a> | <a href=\"https://www.sciencedirect.com/science/article/pii/S0022283624002961\" target=\"_blank\" rel=\"noopener noreferrer\">Publication Link</a>",
+    "tags": ["Bioinformatics", "Algorithms", "Dynamic Programming", "Web", "C++", "React"],
+    "content": [
+      "Developed a dynamic programming algorithm for linear-time consensus RNA structure prediction from alignments.",
+      "Implemented beam pruning and multiple energy models to compute MFE, MEA, Threshknot, and stochastic sampling.",
+      "Built a web server that allows users to submit sequences and run various structural analyses interactively."
+    ]
+  },
+  {
+    "heading": "Explore ML Facilitator",
+    "subheading": "Google Developer Student Club",
+    "description1": "April 2020",
+    "description2": "",
+    "subtitle": "<a href=\"https://drive.google.com/file/d/15abBtBUW1hRcmjXRya3rsrgSMyHbqR-4/view\" target=\"_blank\" rel=\"noopener noreferrer\">Certificate Link</a>",
+    "tags": ["Community", "ML", "Teaching", "Leadership"],
+    "content": [
+      "Conducted five workshops on machine learning, introducing core concepts and practical applications.",
+      "Facilitated as part of the Google-sponsored Explore ML program to promote ML education."
+    ]
+  },
+  {
+    "heading": "Computer Vision for Fras-Le Friction",
+    "subheading": "Work Project (Industrial Automation)",
+    "description1": "May 2022",
+    "description2": "",
+    "subtitle": "",
+    "tags": ["Computer Vision", "Industry", "OCR", "Automation"],
+    "content": [
+      "Automated part of the quality control process using a vision-based app for dimensional analysis of brake liners.",
+      "Used multiple vision cameras to perform real-time measurements and inspections."
+    ]
+  },
+  {
+    "heading": "Reinforcement Learning Capstone",
+    "subheading": "Machine Learning Engineer Nanodegree",
+    "description1": "July 2019",
+    "description2": "",
+    "subtitle": "<a href=\"https://github.com/1998apoorvmalik/machine-learning-engineer-capstone\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub Link</a>",
+    "tags": ["ML", "RL", "Deep Learning", "Python"],
+    "content": [
+      "Built a Deep Q-Learning agent that outperformed humans in Atari Breakout.",
+      "The agent discovered high-scoring strategies through reinforcement learning techniques."
+    ]
+  },
+  {
+    "heading": "Flutter Chess Game",
+    "subheading": "Personal Project",
+    "description1": "March 2022",
+    "description2": "",
+    "subtitle": "<a href=\"https://1998apoorvmalik.github.io/flutter-chess/\" target=\"_blank\" rel=\"noopener noreferrer\">Demo Link</a> | <a href=\"https://github.com/1998apoorvmalik/flutter-chess\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub Link</a>",
+    "tags": ["Game Dev", "Flutter", "C++", "Bitboards", "AI"],
+    "content": [
+      "Built a chess game using Flutter and C++ with bitboard-based move generation.",
+      "Implemented AI opponent using NegaMax and added online multiplayer support."
+    ]
+  },
+  {
+    "heading": "Teachable Image Classifier",
+    "subheading": "Personal Project",
+    "description1": "January 2022",
+    "description2": "",
+    "subtitle": "<a href=\"https://github.com/1998apoorvmalik/teachable-image-classifier\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub Link</a>",
+    "tags": ["ML", "Image Classification", "Web App", "TensorFlow.js"],
+    "content": [
+      "Developed a web app allowing non-experts to train image classifiers from scratch.",
+      "Supported live sample collection, adjustable training parameters, and real-time feedback."
+    ]
+  },
+  {
+    "heading": "Vedic Life Foundation Mobile App",
+    "subheading": "Volunteer Work",
+    "description1": "September 2021",
+    "description2": "",
+    "subtitle": "",
+    "tags": ["Mobile", "Flutter", "UI/UX", "Wellness"],
+    "content": [
+      "Built a mobile app for guided meditation, session tracking, and member enrollment.",
+      "Included social features like community Q&A, progress tracking, and motivational sharing."
+    ]
+  }
+]
