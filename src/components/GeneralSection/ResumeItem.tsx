@@ -1,4 +1,5 @@
-import { ResumeEntry } from "../../model/ResumeEntry";
+import { ResumeEntry } from '@/model/resume-entry';
+
 import styles from './GeneralSection.module.css';
 
 interface ResumeItemProps {
@@ -19,7 +20,9 @@ const ResumeItem = ({ item }: ResumeItemProps) => {
       {item.tags && item.tags.length > 0 && (
         <div className={styles.tags}>
           {item.tags.map((tag: string, index: number) => (
-            <span key={index} className={styles.tag}>{tag}</span>
+            <span key={index} className={styles.tag}>
+              {tag}
+            </span>
           ))}
         </div>
       )}

@@ -40,9 +40,6 @@
     "description1": "2024",
     "description2": "",
     "subtitle": "Liang Huang, Otso Barron, Apoorv Malik, Sizhen Li, David H. Mathews",
-    "content": [
-      "Novel lazy algorithms for outside and backward probability calculations.",
-      "Accepted to ISMB 2024."
-    ]
+    "content": ["Novel lazy algorithms for outside and backward probability calculations.", "Accepted to ISMB 2024."]
   }
 ]

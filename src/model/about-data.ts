@@ -1,0 +1,16 @@
+// src/model/about-data.ts
+export interface AboutData {
+  name: string;
+  role: string;
+  description: string;
+  phone: string;
+  email: string[];
+  linkedin: string;
+  github: string;
+  degree: string;
+  location: string;
+  languages: string;
+  x: string;
+  website: string;
+  instagram: string;
+}

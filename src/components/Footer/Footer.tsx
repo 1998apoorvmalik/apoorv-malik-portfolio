@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
-import styles from './Footer.module.css';
 import { FaGithub, FaInstagram, FaLinkedin, FaSun } from 'react-icons/fa';
+import { FiArrowUp, FiDownload, FiMail, FiMoon } from 'react-icons/fi';
 import { SiX } from 'react-icons/si';
-import { FiDownload, FiArrowUp, FiMoon, FiMail } from 'react-icons/fi';
+
+import styles from './Footer.module.css';
 
 interface FooterData {
   email?: string;
@@ -88,12 +89,7 @@ const Footer = ({ jsonPath, iconColor = 'var(--color-primary)', navTabs = [] }: 
       {navTabs.length > 0 && (
         <nav className={styles.nav}>
           {navTabs.map((tab, idx) => (
-            <button
-              key={idx}
-              onClick={() => scrollToSection(tab)}
-              className={styles.navLink}
-              title={`Go to ${tab}`}
-            >
+            <button key={idx} onClick={() => scrollToSection(tab)} className={styles.navLink} title={`Go to ${tab}`}>
               {tab}
             </button>
           ))}
@@ -102,11 +98,7 @@ const Footer = ({ jsonPath, iconColor = 'var(--color-primary)', navTabs = [] }: 
 
       {/* Controls */}
       <div className={styles.controls}>
-        <button
-          className={styles.controlBtn}
-          onClick={() => window.open('resume.pdf')}
-          title="Download Resume"
-        >
+        <button className={styles.controlBtn} onClick={() => window.open('resume.pdf')} title="Download Resume">
           <FiDownload size={20} />
           <span>Resume</span>
         </button>

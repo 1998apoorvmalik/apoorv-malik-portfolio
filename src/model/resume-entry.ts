@@ -1,3 +1,4 @@
+// src/model/resume-entry.ts
 export interface ResumeEntry {
   heading: string;
   subheading: string;

@@ -1,8 +1,10 @@
-import styles from './SkillSection.module.css';
-import { SkillData } from '../../model/SkillData';
 import { useEffect, useState } from 'react';
-import { fetchSkills } from '../../services/dataService';
-import getSkillIconComponent from '../../utils/getIconComponent';
+
+import { SkillData } from '@/model/skills-data';
+import { fetchSkills } from '@/services/data-service';
+import getSkillIconComponent from '@/utils/get-icon-component';
+
+import styles from './SkillSection.module.css';
 
 interface SkillSectionProps {
   jsonPath: string;
@@ -58,26 +60,12 @@ const SkillSection = ({ jsonPath, iconSize = 36 }: SkillSectionProps) => {
       <h2 className="section-title">Skills</h2>
 
       <div className={styles.topGrid}>
-        {items?.['languages'] && (
-          <>
-            {renderSection('Languages', items['languages'])}
-          </>
-        )}
+        {items?.['languages'] && <>{renderSection('Languages', items['languages'])}</>}
         {items?.['libraries-frameworks'] && (
-          <>
-            {renderSection('Libraries & Frameworks', items['libraries-frameworks'])}
-          </>
+          <>{renderSection('Libraries & Frameworks', items['libraries-frameworks'])}</>
         )}
-        {items?.['tools'] && (
-          <>
-            {renderSection('Tools & Platforms', items['tools'])}
-          </>
-        )}
-                {items?.['interests'] && (
-          <>
-            {renderSection('Interests', items['interests'])}
-          </>
-        )}
+        {items?.['tools'] && <>{renderSection('Tools & Platforms', items['tools'])}</>}
+        {items?.['interests'] && <>{renderSection('Interests', items['interests'])}</>}
       </div>
     </div>
   );

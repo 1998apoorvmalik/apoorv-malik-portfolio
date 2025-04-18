@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: rgba(var(--color-background-rgb), 1.0);
+  background-color: rgba(var(--color-background-rgb), 1);
   /* background-color: #874F41; */
   /* color: var(--color-background); */
   /* fill-opacity: 1; */
