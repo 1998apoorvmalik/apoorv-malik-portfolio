@@ -3,7 +3,7 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/apoorv-malik-portfolio/', // for GitHub Pages
+  // base: '/apoorv-malik-portfolio/', // for GitHub Pages
   plugins: [react()],
   resolve: {
     alias: {
